@@ -1,0 +1,89 @@
+.ai-image-generator {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 30px;
+
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+.header {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.header span {
+    color: red;
+    font-weight: 800;
+}
+
+.search-box {
+    display: flex;
+    width: 700px;
+    height: 55px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #1f3540;
+}
+
+.search-input {
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+}
+
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.generate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #de1b89;
+    cursor: pointer;
+}
+
+.loading-bar {
+    width: 0px;
+    height: 3px;
+    background: #de1b89;
+}
+
+.loading-text {
+    font-size: 16px;
+}
+
+.loading-bar-full {
+    width: 300px;
+    height: 3px;
+    background: #de1b89;
+    transition: 10s;
+}
+
+.display-none {
+    display: none;
+}
